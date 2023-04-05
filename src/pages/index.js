@@ -140,6 +140,9 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className='home-container'>
+      <h1>Welcome.</h1>
+      </div>
       {/* <div>
         <About />
         <Skills />

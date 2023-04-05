@@ -1,9 +1,10 @@
 const Home = () => {
   return (
     <>
-        <h1>Who i am</h1>
 
       <div className='Ambroise_container'>
+      <h1>Who i am</h1>
+
         <p>
           My name is Ambroise Loiseau,
           I am a junior web developer trained at school 42, and I'm excited to share with you my
