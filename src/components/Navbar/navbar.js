@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           <ul>
             {MENU_LIST.map((menu, idx) => (
-              <li>
+              <li key = {menu.id}>
                 <div
                   onClick={() => {
                     setActiveIdx(idx);
