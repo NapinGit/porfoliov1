@@ -3,7 +3,7 @@ const Skills = () => {
     <>
       <div className="skills-container-intro">
       <h1>Skills</h1>
-      <p>here, i'm gonna present you some of the languages and technology i already worked with</p>
+      <p>here, i'm gonna present you some of the programation languages and technology i already worked with</p>
       </div>
 
       <div className="skills-container">

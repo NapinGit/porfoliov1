@@ -11,6 +11,8 @@ body {
   width: 1500px;
   margin: 0 auto;
   padding: 0 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 
@@ -71,7 +73,7 @@ overflow: hidden;
 }
 
 .police {
-  font-family:  Montserrat-Regular;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   padding: 0 6rem;
   color: #f1edf8;
   /* position: absolute; */
@@ -141,8 +143,8 @@ height: 300px;
 
 
 :root {
-  --grad-1: rgb(235, 36, 10);
-  --grad-2: rgb(59, 137, 124);
+  --grad-1: rgb(10, 235, 29);
+  --grad-2: rgb(11, 92, 241);
 }
 
 /* .content_container{
@@ -215,11 +217,11 @@ height: 300px;
 }
 
 .footer-container .fa-regular{
-  color:#003cff!important;
+  color:#00aeff!important;
 }
 
 .footer-container .fa-brands{
-  color:#003cff!important;
+  color:#00aeff!important;
 }
 
 /* Projects */
@@ -286,11 +288,12 @@ height: 300px;
 }
 
 .small-icons .fa-brands{
-  color:#003cff!important;
+  color:#00aeff!important;
 }
 
 .small-icons .fas{
-  color:#003cff!important;
+  color:#00aeff!important;
+
 }
 
 /* Skills */
@@ -366,6 +369,15 @@ height: 300px;
   padding: 1rem 0;
 }
 
+.hobbies .fa-solid{
+  color:#00aeff!important;
+}
+
+.hobbies .fa-regular{
+  color:#00aeff!important;
+}
+
+
 /* contact */
 
 .contact-container{
@@ -380,4 +392,9 @@ height: 300px;
 
 .home-container h1{
   font-size: 96px;
+}
+
+.error-container{
+  margin-top: 20%;
+
 }

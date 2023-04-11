@@ -24,19 +24,19 @@ const Home = () => {
             Hobbies
           </h2>
           <p>
-            Listening music (almost every kind of music)
+          <i className="fa-solid fa-music"></i> Listening to music (almost every kind of music) <i className="fa-solid fa-music"></i>
           </p>
           <p>
-          Board games and role-playing games
+          <i className="fa-regular fa-chess-pawn"></i> Board games and role-playing games <i className="fa-regular fa-chess-pawn"></i>
           </p>
           <p>
-            Read (Manga mostly)
+          <i className="fa-solid fa-book"></i> Reading (Manga mostly) <i className="fa-solid fa-book"></i>
           </p>
           <p>
-            Video games
+          <i className="fa-solid fa-gamepad"></i> Video games <i className="fa-solid fa-gamepad"></i>
           </p>
           <p>
-            Zythology, because a beer brewed with knowledge should be tasted with wisdom
+          <i className="fa-sharp fa-solid fa-beer-mug-empty"></i> Zythology, because a beer brewed with knowledge should be tasted with wisdom <i className="fa-sharp fa-solid fa-beer-mug-empty"></i>
           </p>
         </li>
         </div>
