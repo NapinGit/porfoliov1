@@ -5,28 +5,28 @@ import React, { useState } from "react";
 import NavItem from "../NavItem/navitem";
 
 const MENU_LIST = [
+  // {
+  //   id: 1,
+  //   text: "Home",
+  //   href: "/"
+  // },
   {
     id: 1,
-    text: "Home",
-    href: "/"
-  },
-  {
-    id: 2,
     text: "Who am i ?",
     href: "/ambroise",
   },
   {
-    id: 3,
+    id: 2,
     text: "Projects",
     href: "/projects",
   },
   {
-    id: 4,
+    id: 3,
     text: "Skills",
     href: "/skills",
   },
   {
-    id: 5,
+    id: 4,
     text: "Contact",
     href: "/contact",
   },
