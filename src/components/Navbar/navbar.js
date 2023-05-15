@@ -5,11 +5,6 @@ import React, { useState } from "react";
 import NavItem from "../NavItem/navitem";
 
 const MENU_LIST = [
-  // {
-  //   id: 1,
-  //   text: "Home",
-  //   href: "/"
-  // },
   {
     id: 1,
     text: "Who am i ?",
@@ -66,35 +61,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-// const Navbar = () => {
-//   return (
-//     <div className="nav-container">
-//       <ul>
-//         <li>
-//           <Link href="/ambroise">
-//             Who am i ?
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/skills">
-//             Skills
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/projects">
-//             Projects
-//           </Link>
-//         </li>
-//         <li>
-//           <Link href="/contact">
-//             Contact
-//           </Link>
-//         </li>
-//       </ul>
-//     </div>
-//   )
-// }
-
-// export default Navbar;
